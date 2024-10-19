@@ -6,7 +6,7 @@ pragma solidity ^0.8.24;
 import {LibDiamond} from "../libraries/LibDiamond.sol";
 import {IERC721Errors} from "../interfaces/IErorrs.sol";
 import {IERC721} from "../interfaces/IERC721.sol";
-import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
+import strings from "lib/utils/strings.sol";
 
 /**
  * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC-721] Non-Fungible Token Standard, including
